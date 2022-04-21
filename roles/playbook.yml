@@ -1,0 +1,6 @@
+---
+- name: Run role
+  hosts: 10.176.232.100
+  any_errors_fatal: true
+  roles:
+    - prometheus
